@@ -18,6 +18,7 @@
   "homepage": "https://github.com/vinaygunnam/utility-helper-server#readme",
   "dependencies": {
     "cors": "^2.7.1",
-    "express": "^4.13.1"
+    "express": "^4.13.1",
+    "request": "^2.58.0"
   }
 }
