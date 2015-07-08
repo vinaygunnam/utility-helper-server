@@ -1,0 +1,23 @@
+{
+  "name": "utility-helper-server",
+  "version": "1.0.0",
+  "description": "Simple server to help out with helper roles such as resource proxy.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinaygunnam/utility-helper-server.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vinaygunnam/utility-helper-server/issues"
+  },
+  "homepage": "https://github.com/vinaygunnam/utility-helper-server#readme",
+  "dependencies": {
+    "cors": "^2.7.1",
+    "express": "^4.13.1"
+  }
+}
