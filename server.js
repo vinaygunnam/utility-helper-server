@@ -33,6 +33,7 @@ app.get('/resource', function resource(req, res, next) {
         });
 
         response.on('end', function() {
+          console.log(str);
           res.send(str);
         });
 
