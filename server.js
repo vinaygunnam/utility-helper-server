@@ -25,6 +25,7 @@ app.get('/resource', function resource(req, res, next) {
       };
 
       function httpCallback(response) {
+        console.log('Request started .... ' + requestedResourceUrl);
         var str = '';
 
         //another chunk of data has been recieved, so append it to `str`
@@ -33,7 +34,7 @@ app.get('/resource', function resource(req, res, next) {
         });
 
         response.on('end', function() {
-          console.log(str);
+          console.log('Resource fetched: length=' + str.length);
           res.send(str);
         });
 
